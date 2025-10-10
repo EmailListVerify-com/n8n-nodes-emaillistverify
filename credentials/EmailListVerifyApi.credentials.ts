@@ -9,6 +9,7 @@ export class EmailListVerifyApi implements ICredentialType {
 	name = 'emailListVerifyApi';
 	displayName = 'EmailListVerify API';
 	documentationUrl = 'https://api.emaillistverify.com/api-doc';
+	icon: 'file:emaillistverify.svg' = 'file:emaillistverify.svg' as const;
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',
